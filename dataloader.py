@@ -1,6 +1,6 @@
 import pandas as pd
 
-
+# 데이터셋을 불러온 뒤 이상치를 제거하는 함수
 # 원데이터의 경로를 csv_path에 입력하면 전처리된 데이터프레임을 반환
 def load_prepro_data(csv_path='Regression_data.csv'):
     # original 데이터셋 불러오기
